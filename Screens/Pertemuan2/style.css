@@ -1,0 +1,69 @@
+/* Style untuk form input */
+.form-input {
+  margin-bottom: 10px;
+}
+
+.form-input label {
+  font-weight: bold;
+}
+
+/* Style untuk tombol submit */
+.btn-submit {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-submit:hover {
+  background-color: #3e8e41;
+}
+
+/* Style untuk tabel hasil */
+.table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+/* Style untuk keterangan grade dan lulus/tidak lulus */
+.keterangan {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.grade {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.lulus {
+  color: #4caf50;
+}
+
+.tidak-lulus {
+  color: #f44336;
+}
